@@ -72,7 +72,7 @@ int search(Node*head,int key){
 	}
 	return aageKaIndex+1;
 }
-
+// Recursive function to reverse LL
 Node* recReverse(Node*head){
 	if(head==NULL or head->next==NULL){
 		return head;
@@ -89,7 +89,7 @@ Node* recReverse(Node*head){
 	head->next = NULL;
 	return chotaHead;
 }
-
+//Reversion using Iteration
 void Reverse(Node*&head){
 	Node*current = head;
 	Node*N = head->next;
